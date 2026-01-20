@@ -134,6 +134,12 @@ h2 {
 }
 
 /* ================= PROJECTS ================= */
+#about p {
+    margin-bottom: 18px;
+    line-height: 1.8;
+}
+
+/* ================= PROJECTS ================= */
 .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));

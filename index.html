@@ -50,27 +50,58 @@
 <!-- PROJECTS -->
 <section id="projects">
     <h2>Proyek</h2>
+
     <div class="projects">
-        <div class="project-card" onclick="openModal()">
-            <img src="img/project1.jpg" alt="Project 1">
-            <h3>Undangan Pernikahan Digital</h3>
+
+        <!-- PROJECT 1 -->
+        <div class="project-card" onclick="openModal('modalProject1')">
+            <img src="img/project1.jpg" alt="Undangan Pernikahan Digital">
+            <h3>Undangan Digital</h3>
         </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card" onclick="openModal('modalProject2')">
+            <img src="img/project2.jpg" alt="Financial Record">
+            <h3>Financial Record</h3>
+        </div>
+
     </div>
 </section>
 
 <!-- MODAL -->
-<div class="modal" id="modal">
-    <span class="close" onclick="closeModal()">✕</span>
+<div class="modal" id="modalProject1">
+    <span class="close" onclick="closeModal('modalProject1')">✕</span>
+
     <div class="modal-content">
-        <img src="img/project1.jpg">
+        <img src="img/project1.jpg" alt="Project 1">
+
         <div class="modal-body">
-            <h3>Undangan Pernikahan Digital</h3>
+            <h3>Undangan Digital</h3>
             <p>
                 Website undangan pernikahan digital yang praktis dan modern.
                 Memudahkan penyebaran undangan dalam jumlah besar
                 dengan waktu yang sangat singkat.
             </p>
             <a href="https://beta-invitation.vercel.app" target="_blank">
+                Review Project
+            </a>
+        </div>
+    </div>
+</div>
+    
+<div class="modal" id="modalProject2">
+    <span class="close" onclick="closeModal('modalProject2')">✕</span>
+
+    <div class="modal-content">
+        <img src="img/project2.jpg" alt="Financial Record">
+
+        <div class="modal-body">
+            <h3>Financial Record</h3>
+            <p>
+                Aplikasi berbasis web untuk pencatatan keuangan sederhana
+                dengan sistem rekap total pemasukan dan pengeluaran.
+            </p>
+            <a href="https://kek-finance.web.app" target="_blank">
                 Review Project
             </a>
         </div>
